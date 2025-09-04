@@ -50,7 +50,7 @@ const UrlShortener = () => {
     
 
     try {
-      const response = await fetch('https://localhost:3000/url', {
+      const response = await fetch('https://url-shortner-iota-seven.vercel.app/url', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
