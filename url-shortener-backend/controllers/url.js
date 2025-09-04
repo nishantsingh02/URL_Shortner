@@ -16,7 +16,7 @@ async function HandleGenrateNewShortUrl(req, res) {
     })
 
     return res.json({
-        id: `http://localhost:3000/${shortId}`
+        id: `https://url-shortner-backend-phi-seven.vercel.app/${shortId}`
     })
 }
 
